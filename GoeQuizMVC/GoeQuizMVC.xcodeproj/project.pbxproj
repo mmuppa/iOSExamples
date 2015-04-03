@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA308BB21ACE06ED004B5558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA308BB11ACE06ED004B5558 /* main.m */; };
+		AA308BB51ACE06ED004B5558 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA308BB41ACE06ED004B5558 /* AppDelegate.m */; };
+		AA308BB81ACE06ED004B5558 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA308BB71ACE06ED004B5558 /* ViewController.m */; };
+		AA308BBB1ACE06ED004B5558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA308BB91ACE06ED004B5558 /* Main.storyboard */; };
+		AA308BBD1ACE06ED004B5558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA308BBC1ACE06ED004B5558 /* Images.xcassets */; };
+		AA308BC01ACE06ED004B5558 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA308BBE1ACE06ED004B5558 /* LaunchScreen.xib */; };
+		AA308BCC1ACE06ED004B5558 /* GoeQuizMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA308BCB1ACE06ED004B5558 /* GoeQuizMVCTests.m */; };
+		AA308BD61ACE090E004B5558 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = AA308BD51ACE090E004B5558 /* Question.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA308BC61ACE06ED004B5558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA308BA41ACE06ED004B5558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA308BAB1ACE06ED004B5558;
+			remoteInfo = GoeQuizMVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA308BAC1ACE06ED004B5558 /* GoeQuizMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoeQuizMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA308BB01ACE06ED004B5558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA308BB11ACE06ED004B5558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA308BB31ACE06ED004B5558 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA308BB41ACE06ED004B5558 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA308BB61ACE06ED004B5558 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA308BB71ACE06ED004B5558 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA308BBA1ACE06ED004B5558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA308BBC1ACE06ED004B5558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA308BBF1ACE06ED004B5558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA308BC51ACE06ED004B5558 /* GoeQuizMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoeQuizMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA308BCA1ACE06ED004B5558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA308BCB1ACE06ED004B5558 /* GoeQuizMVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoeQuizMVCTests.m; sourceTree = "<group>"; };
+		AA308BD51ACE090E004B5558 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = ../Question.m; sourceTree = "<group>"; };
+		AA308BD71ACE0942004B5558 /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Question.h; path = ../Question.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA308BA91ACE06ED004B5558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA308BC21ACE06ED004B5558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA308BA31ACE06ED004B5558 = {
+			isa = PBXGroup;
+			children = (
+				AA308BAE1ACE06ED004B5558 /* GoeQuizMVC */,
+				AA308BC81ACE06ED004B5558 /* GoeQuizMVCTests */,
+				AA308BAD1ACE06ED004B5558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA308BAD1ACE06ED004B5558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA308BAC1ACE06ED004B5558 /* GoeQuizMVC.app */,
+				AA308BC51ACE06ED004B5558 /* GoeQuizMVCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA308BAE1ACE06ED004B5558 /* GoeQuizMVC */ = {
+			isa = PBXGroup;
+			children = (
+				AA308BD71ACE0942004B5558 /* Question.h */,
+				AA308BD51ACE090E004B5558 /* Question.m */,
+				AA308BB31ACE06ED004B5558 /* AppDelegate.h */,
+				AA308BB41ACE06ED004B5558 /* AppDelegate.m */,
+				AA308BB61ACE06ED004B5558 /* ViewController.h */,
+				AA308BB71ACE06ED004B5558 /* ViewController.m */,
+				AA308BB91ACE06ED004B5558 /* Main.storyboard */,
+				AA308BBC1ACE06ED004B5558 /* Images.xcassets */,
+				AA308BBE1ACE06ED004B5558 /* LaunchScreen.xib */,
+				AA308BAF1ACE06ED004B5558 /* Supporting Files */,
+			);
+			path = GoeQuizMVC;
+			sourceTree = "<group>";
+		};
+		AA308BAF1ACE06ED004B5558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA308BB01ACE06ED004B5558 /* Info.plist */,
+				AA308BB11ACE06ED004B5558 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA308BC81ACE06ED004B5558 /* GoeQuizMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA308BCB1ACE06ED004B5558 /* GoeQuizMVCTests.m */,
+				AA308BC91ACE06ED004B5558 /* Supporting Files */,
+			);
+			path = GoeQuizMVCTests;
+			sourceTree = "<group>";
+		};
+		AA308BC91ACE06ED004B5558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA308BCA1ACE06ED004B5558 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA308BAB1ACE06ED004B5558 /* GoeQuizMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA308BCF1ACE06ED004B5558 /* Build configuration list for PBXNativeTarget "GoeQuizMVC" */;
+			buildPhases = (
+				AA308BA81ACE06ED004B5558 /* Sources */,
+				AA308BA91ACE06ED004B5558 /* Frameworks */,
+				AA308BAA1ACE06ED004B5558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoeQuizMVC;
+			productName = GoeQuizMVC;
+			productReference = AA308BAC1ACE06ED004B5558 /* GoeQuizMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA308BC41ACE06ED004B5558 /* GoeQuizMVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA308BD21ACE06ED004B5558 /* Build configuration list for PBXNativeTarget "GoeQuizMVCTests" */;
+			buildPhases = (
+				AA308BC11ACE06ED004B5558 /* Sources */,
+				AA308BC21ACE06ED004B5558 /* Frameworks */,
+				AA308BC31ACE06ED004B5558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA308BC71ACE06ED004B5558 /* PBXTargetDependency */,
+			);
+			name = GoeQuizMVCTests;
+			productName = GoeQuizMVCTests;
+			productReference = AA308BC51ACE06ED004B5558 /* GoeQuizMVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA308BA41ACE06ED004B5558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = mmuppa;
+				TargetAttributes = {
+					AA308BAB1ACE06ED004B5558 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					AA308BC41ACE06ED004B5558 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = AA308BAB1ACE06ED004B5558;
+					};
+				};
+			};
+			buildConfigurationList = AA308BA71ACE06ED004B5558 /* Build configuration list for PBXProject "GoeQuizMVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA308BA31ACE06ED004B5558;
+			productRefGroup = AA308BAD1ACE06ED004B5558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA308BAB1ACE06ED004B5558 /* GoeQuizMVC */,
+				AA308BC41ACE06ED004B5558 /* GoeQuizMVCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA308BAA1ACE06ED004B5558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA308BBB1ACE06ED004B5558 /* Main.storyboard in Resources */,
+				AA308BC01ACE06ED004B5558 /* LaunchScreen.xib in Resources */,
+				AA308BBD1ACE06ED004B5558 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA308BC31ACE06ED004B5558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA308BA81ACE06ED004B5558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA308BB81ACE06ED004B5558 /* ViewController.m in Sources */,
+				AA308BD61ACE090E004B5558 /* Question.m in Sources */,
+				AA308BB51ACE06ED004B5558 /* AppDelegate.m in Sources */,
+				AA308BB21ACE06ED004B5558 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA308BC11ACE06ED004B5558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA308BCC1ACE06ED004B5558 /* GoeQuizMVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA308BC71ACE06ED004B5558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA308BAB1ACE06ED004B5558 /* GoeQuizMVC */;
+			targetProxy = AA308BC61ACE06ED004B5558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA308BB91ACE06ED004B5558 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA308BBA1ACE06ED004B5558 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA308BBE1ACE06ED004B5558 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA308BBF1ACE06ED004B5558 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA308BCD1ACE06ED004B5558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA308BCE1ACE06ED004B5558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA308BD01ACE06ED004B5558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoeQuizMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA308BD11ACE06ED004B5558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoeQuizMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA308BD31ACE06ED004B5558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoeQuizMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoeQuizMVC.app/GoeQuizMVC";
+			};
+			name = Debug;
+		};
+		AA308BD41ACE06ED004B5558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoeQuizMVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoeQuizMVC.app/GoeQuizMVC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA308BA71ACE06ED004B5558 /* Build configuration list for PBXProject "GoeQuizMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA308BCD1ACE06ED004B5558 /* Debug */,
+				AA308BCE1ACE06ED004B5558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA308BCF1ACE06ED004B5558 /* Build configuration list for PBXNativeTarget "GoeQuizMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA308BD01ACE06ED004B5558 /* Debug */,
+				AA308BD11ACE06ED004B5558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA308BD21ACE06ED004B5558 /* Build configuration list for PBXNativeTarget "GoeQuizMVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA308BD31ACE06ED004B5558 /* Debug */,
+				AA308BD41ACE06ED004B5558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA308BA41ACE06ED004B5558 /* Project object */;
+}
